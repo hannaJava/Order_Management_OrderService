@@ -1,0 +1,14 @@
+package com.genspark.OM_OrderMicroservice.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderObjectsWrapper {
+    private Order order;
+    private Product product;
+    private Customer customer;
+}
